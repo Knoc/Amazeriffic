@@ -16,6 +16,7 @@ header .container, main .container, footer .container {
 header {
 	background: white;
 	overflow: auto;
+	padding: 30px;
 }
 
 header h1, main .content, footer .contact {
@@ -31,14 +32,17 @@ header nav, main img, footer .sitemap{
 main {
 	background: white;
 	overflow: auto;
+	padding: 45px;
 }
 
 footer {
+	padding: 40px;
 	overflow: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 15px;
 }
 
 h1 {
@@ -46,9 +50,50 @@ h1 {
 }
 
 h2 {
-	font-size: 1.7em;
+	font-size: 2.0em;
 }
 
 h3 {
-	font-size: 1.3em;
+	font-size: 1.8em;
 }
+
+h4 {
+	font-size: 1.6em;
+}
+
+h5 {
+	font-size: 1.4em;
+}
+
+main p {
+	margin-top:15px;
+	margin-bottom: 20px;
+}
+
+main h3 {
+	margin-bottom:10px;
+}
+
+li {
+	margin-bottom: 7px;
+}
+
+p, li, a {
+	margin-bottom: 2px;
+	font-size: 0.9em;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: indigo;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
