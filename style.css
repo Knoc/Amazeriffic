@@ -9,7 +9,7 @@ header, main, footer {
 }
 
 header .container, main .container, footer .container {
-	max-width: 855px;
+	max-width: 1200px;
 	margin: auto;
 }
 
@@ -21,12 +21,12 @@ header {
 
 header h1, main .content, footer .contact {
 	float: left;
-	width: 570px;
+	width: 800px;
 }
 
 header nav, main img, footer .sitemap{
 	float: right;
-	width: 285px;
+	width: 300px;
 }
 
 main {
